@@ -7,14 +7,6 @@ using Microsoft.Extensions.Configuration;
 
 namespace S3Api.Services
 {
-    public interface IS3Service
-    {
-        Task UploadFileAsync(string filePath, string keyName);
-        Task DownloadFileAsync(string keyName, string destinationPath);
-        Task DeleteFileAsync(string keyName);
-        Task ListFilesAsync();
-    }
-
     public class S3Service : IS3Service
     {
         private readonly IAmazonS3 _s3Client;
