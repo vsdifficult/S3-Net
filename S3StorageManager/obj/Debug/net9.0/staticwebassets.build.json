@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "LUGaA89RizWeRANXvBve0leAq22D2CRBHNbGvNKEs+4=",
+  "Source": "S3StorageManager",
+  "BasePath": "_content/S3StorageManager",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
